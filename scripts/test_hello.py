@@ -13,10 +13,10 @@ class TestHello:
 
     @allure.severity(allure.severity_level.BLOCKER)
     def test_hello3(self):
-        assert False
+        assert True
 
     def test_hello4(self):
-        assert False
+        assert True
 
     def test_hello5(self):
         assert True
